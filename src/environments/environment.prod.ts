@@ -1,7 +1,7 @@
 export const environment = {
   production: true,
-  irebaseConfig : {
-    apiKey: " ",
+  firebaseConfig : {
+    apiKey: "AIzaSyCl7DAfujTx4lr7LO0R5ckOiObONEHqrbg ",
     authDomain: "openstreetmap-d7e95.firebaseapp.com",
     databaseURL: "https://openstreetmap-d7e95-default-rtdb.firebaseio.com",
     projectId: "openstreetmap-d7e95",
