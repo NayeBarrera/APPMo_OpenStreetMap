@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig : {
+    apiKey: " ",
+    authDomain: "openstreetmap-d7e95.firebaseapp.com",
+    databaseURL: "https://openstreetmap-d7e95-default-rtdb.firebaseio.com",
+    projectId: "openstreetmap-d7e95",
+    storageBucket: "openstreetmap-d7e95.appspot.com",
+    messagingSenderId: "747467491962",
+    appId: "1:747467491962:web:6295277b8edcb4977e49c3",
+    measurementId: "G-ER9C99MKKM"
+  }
 };
 
 /*

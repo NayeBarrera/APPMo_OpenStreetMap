@@ -17,8 +17,8 @@ export class HomePage implements AfterViewInit {
   latitude: number = 0;
   longitude: number = 0;
   address: string = '';
-  map: L.Map;
-  marker: L.Marker;
+  map!: L.Map;
+  marker!: L.Marker;
 
   constructor(
     private geolocation: Geolocation,
